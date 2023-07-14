@@ -80,34 +80,6 @@
                 backSpeed:55,
                 loop:true
             });
-
-            /*function downloadCV(){
-                const url = "cv/JavaWeek1.pdf"; //add path to cv when you have it
-
-                //download file using fetch
-                fetch(url)
-                    .then(response => {
-                        //convert response to blob object
-                        return response.blob();
-                    })
-                    .then(blob => {
-                        //link element and set its download attribute to filename of CV
-                        const link = document.createElement("a")
-                        link.href = window.URL.createObjectURL(blob)
-                        link.download = "JavaWeek1.pdf"; //add cv filename here when you have it
-
-                        //click event on the link element to trigger download
-                        document.body.appendChild(link)
-                        link.dispatchEvent(
-                            new MouseEvent('click', {
-                                bubbles: true,
-                                cancelable: true,
-                                view: window
-                            })
-                        );
-                        document.body.removeChild(link);
-                    });
-            }*/
         </script>
     </body>
 </html>
